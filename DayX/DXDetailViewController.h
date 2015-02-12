@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class Entry;
+static NSString * const EntryKey = @"entry";
+
 @interface DXDetailViewController : UIViewController
+
+@property (nonatomic, assign) NSInteger index;
+@property (nonatomic, strong) NSString *name;
+
+- (void)updateWithEntry:(Entry *)entry;
 
 @end

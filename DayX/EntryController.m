@@ -7,7 +7,6 @@
 //
 
 #import "EntryController.h"
-#import "Entry.h"
 
 static NSString * const entryListKey = @"entryList";
 
@@ -21,13 +20,12 @@ static NSString * const entryListKey = @"entryList";
 
 
 + (EntryController *)sharedInstance {
-    
     static EntryController *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[EntryController alloc] init];
         
-        sharedInstance.entries = [EntryController loadEntriesFromDefaults];
+        [sharedInstance loadFromDefaults];
     });
     return sharedInstance;
 }
@@ -69,7 +67,6 @@ static NSString * const entryListKey = @"entryList";
     self.entries = mutableEntries;
     
     }
-}
 
 - (void)loadFromDefaults {
     
@@ -94,6 +91,6 @@ static NSString * const entryListKey = @"entryList";
     
     }
     
-}
+
 
 @end

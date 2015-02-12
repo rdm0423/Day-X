@@ -7,17 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Entry.h"
 
-@interface EntryController : NSArray
+@interface EntryController : NSObject
 
-@property (nonatomic, readonly) NSArray *entries;
+@property (nonatomic, strong, readonly) NSArray *entries;
 
 + (EntryController *)sharedInstance;
 
 - (void)addEntry:(Entry *)entry;
-
 - (void)removeEntry:(Entry *)entry;
-
 - (void)replaceEntry:(NSDictionary *)oldEntry withEntry:(NSDictionary *)newEntry;
 
 @end

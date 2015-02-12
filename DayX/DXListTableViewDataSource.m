@@ -7,7 +7,7 @@
 //
 
 #import "DXListTableViewDataSource.h"
-#import "Entry.h"
+#import "EntryController.h"
 
 @implementation DXListTableViewDataSource
 
@@ -17,17 +17,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    NSArray *entries = [Entry loadEntriesFromDefaults];
-    return entries.count;
+    NSArray *fullEntry = [EntryController sharedInstance].entries;
+    return fullEntry.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    NSArray *entries = [Entry loadEntriesFromDefaults];
-    Entry *entry = entries[indexPath.row];
+
+    Entry *fullEntry = [[EntryController sharedInstance].entries objectAtIndex:indexPath.row];
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class])];
-    cell.textLabel.text = entry.title;
+    cell.textLabel.text = fullEntry.title;
     return cell;
 }
 
