@@ -24,6 +24,7 @@
 		711A508F19388096005642EF /* DayXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A508E19388096005642EF /* DayXTests.m */; };
 		71B57C4919C758CB00EF6AE3 /* DXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B57C4719C758CB00EF6AE3 /* DXDetailViewController.m */; };
 		71B57C4A19C758CB00EF6AE3 /* DXDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */; };
+		FF3C43BA1A8C1F7000561D88 /* EntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3C43B91A8C1F7000561D88 /* EntryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		71B57C4619C758CB00EF6AE3 /* DXDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDetailViewController.h; sourceTree = "<group>"; };
 		71B57C4719C758CB00EF6AE3 /* DXDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDetailViewController.m; sourceTree = "<group>"; };
 		71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXDetailViewController.xib; sourceTree = "<group>"; };
+		FF3C43B81A8C1F7000561D88 /* EntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryController.h; sourceTree = "<group>"; };
+		FF3C43B91A8C1F7000561D88 /* EntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +141,10 @@
 				71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */,
 				4FF7BCEC1A688B9F007AB98B /* DXListViewController.h */,
 				4FF7BCED1A688B9F007AB98B /* DXListViewController.m */,
-				4FF7BCEE1A688B9F007AB98B /* DXListTableViewDataSource.m */,
 				4FF7BCEF1A688B9F007AB98B /* DXListTableViewDataSource.h */,
+				4FF7BCEE1A688B9F007AB98B /* DXListTableViewDataSource.m */,
+				FF3C43B81A8C1F7000561D88 /* EntryController.h */,
+				FF3C43B91A8C1F7000561D88 /* EntryController.m */,
 				711A507B19388095005642EF /* Images.xcassets */,
 				711A507019388095005642EF /* Supporting Files */,
 			);
@@ -276,6 +281,7 @@
 				4FF7BCF11A688B9F007AB98B /* DXListTableViewDataSource.m in Sources */,
 				4FF7BCF01A688B9F007AB98B /* DXListViewController.m in Sources */,
 				711A507A19388095005642EF /* DXAppDelegate.m in Sources */,
+				FF3C43BA1A8C1F7000561D88 /* EntryController.m in Sources */,
 				711A507619388095005642EF /* main.m in Sources */,
 				71B57C4919C758CB00EF6AE3 /* DXDetailViewController.m in Sources */,
 			);
