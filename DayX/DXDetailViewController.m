@@ -52,14 +52,17 @@
     self.textView.text = @"";
 }
 
-- (IBAction)save:(id)sender {
-
-    Entry *entry = [[Entry alloc] initWithDictionary:@{titleKey: self.textField.text, textKey: self.textView.text}];
+- (void)save:(id)sender {
     
     if (self.entry) {
-        [[EntryController sharedInstance] replaceEntry:self.entry withEntry:entry];
+        
+        self.entry.title = self.textField.text;
+        self.entry.text = self.textView.text;
+        self.entry.timestamp = [NSDate date];
+        
+        [[EntryController sharedInstance] synchronize];
     } else {
-        [[EntryController sharedInstance] addEntry:entry];
+        [[EntryController sharedInstance] addEntryWithTitle:self.textField.text text:self.textView.text andDate:[NSDate date]];
     }
     
     [self.navigationController popViewControllerAnimated:YES];
