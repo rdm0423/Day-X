@@ -41,7 +41,7 @@ static NSString * const entryListKey = @"entryList";
 
 #pragma Mark - addEntry using core data
 // New to work with Core Data
-- (void)addEntryWithTitle:(NSString *)title text:(NSString *)text andDate:(NSData *)date {
+- (void)addEntryWithTitle:(NSString *)title text:(NSString *)text andDate:(NSDate *)date {
     
     Entry *entry = [NSEntityDescription insertNewObjectForEntityForName:@"Entry" inManagedObjectContext:[Stack sharedInstance].managedObjectContext];
     
