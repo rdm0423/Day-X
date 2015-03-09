@@ -19,15 +19,23 @@
 		711A508519388096005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A506D19388095005642EF /* UIKit.framework */; };
 		711A508D19388096005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A508B19388096005642EF /* InfoPlist.strings */; };
 		711A508F19388096005642EF /* DayXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A508E19388096005642EF /* DayXTests.m */; };
-		7160740219CADDA500D730CF /* EntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7160740119CADDA500D730CF /* EntryController.m */; };
 		7160740519CAE03C00D730CF /* DXListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7160740419CAE03C00D730CF /* DXListViewController.m */; };
 		7160740819CAE06500D730CF /* DXListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7160740719CAE06500D730CF /* DXListTableViewDataSource.m */; };
 		71B57C4919C758CB00EF6AE3 /* DXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B57C4719C758CB00EF6AE3 /* DXDetailViewController.m */; };
 		71B57C4A19C758CB00EF6AE3 /* DXDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B57C4819C758CB00EF6AE3 /* DXDetailViewController.xib */; };
 		FF6BE9F11A9E4ED400140A56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6BE9F01A9E4ED400140A56 /* CoreData.framework */; };
-		FF6BE9F41A9E4F1700140A56 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9F21A9E4F1700140A56 /* Model.xcdatamodeld */; };
-		FF6BE9F81A9E516D00140A56 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9F71A9E516D00140A56 /* Entry.m */; };
-		FF6BE9FB1A9E521B00140A56 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9FA1A9E521B00140A56 /* Stack.m */; };
+		FFF324461AAA1B44006A58EF /* DayXkit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF324451AAA1B44006A58EF /* DayXkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF3244C1AAA1B44006A58EF /* DayXkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF324411AAA1B44006A58EF /* DayXkit.framework */; };
+		FFF324551AAA1B44006A58EF /* DayXkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF324541AAA1B44006A58EF /* DayXkitTests.m */; };
+		FFF324581AAA1B44006A58EF /* DayXkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF324411AAA1B44006A58EF /* DayXkit.framework */; };
+		FFF324591AAA1B44006A58EF /* DayXkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFF324411AAA1B44006A58EF /* DayXkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFF324611AAA1DB2006A58EF /* Entry.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6BE9F61A9E516D00140A56 /* Entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF324621AAA1DC0006A58EF /* EntryController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7160740019CADDA500D730CF /* EntryController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF324631AAA1DC9006A58EF /* Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6BE9F91A9E521B00140A56 /* Stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF324641AAA1DDF006A58EF /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9F71A9E516D00140A56 /* Entry.m */; };
+		FFF324651AAA1DE4006A58EF /* EntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7160740119CADDA500D730CF /* EntryController.m */; };
+		FFF324661AAA1DE9006A58EF /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9FA1A9E521B00140A56 /* Stack.m */; };
+		FFF324671AAA1DF2006A58EF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF6BE9F21A9E4F1700140A56 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,42 @@
 			remoteGlobalIDString = 711A506519388095005642EF;
 			remoteInfo = DayX;
 		};
+		FFF3244D1AAA1B44006A58EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711A505E19388095005642EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF324401AAA1B44006A58EF;
+			remoteInfo = DayXkit;
+		};
+		FFF3244F1AAA1B44006A58EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711A505E19388095005642EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711A506519388095005642EF;
+			remoteInfo = DayX;
+		};
+		FFF324561AAA1B44006A58EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711A505E19388095005642EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF324401AAA1B44006A58EF;
+			remoteInfo = DayXkit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFF3245D1AAA1B44006A58EF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFF324591AAA1B44006A58EF /* DayXkit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		711A506619388095005642EF /* DayX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +115,13 @@
 		FF6BE9F71A9E516D00140A56 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 		FF6BE9F91A9E521B00140A56 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		FF6BE9FA1A9E521B00140A56 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		FFF3243B1AAA1987006A58EF /* DayX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DayX.entitlements; sourceTree = "<group>"; };
+		FFF324411AAA1B44006A58EF /* DayXkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DayXkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF324441AAA1B44006A58EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF324451AAA1B44006A58EF /* DayXkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayXkit.h; sourceTree = "<group>"; };
+		FFF3244B1AAA1B44006A58EF /* DayXkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayXkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF324531AAA1B44006A58EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF324541AAA1B44006A58EF /* DayXkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayXkitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF324581AAA1B44006A58EF /* DayXkit.framework in Frameworks */,
 				FF6BE9F11A9E4ED400140A56 /* CoreData.framework in Frameworks */,
 				711A506C19388095005642EF /* CoreGraphics.framework in Frameworks */,
 				711A506E19388095005642EF /* UIKit.framework in Frameworks */,
@@ -96,6 +147,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFF3243D1AAA1B44006A58EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF324481AAA1B44006A58EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF3244C1AAA1B44006A58EF /* DayXkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +170,8 @@
 			children = (
 				711A506F19388095005642EF /* DayX */,
 				711A508819388096005642EF /* DayXTests */,
+				FFF324421AAA1B44006A58EF /* DayXkit */,
+				FFF324511AAA1B44006A58EF /* DayXkitTests */,
 				711A506819388095005642EF /* Frameworks */,
 				711A506719388095005642EF /* Products */,
 			);
@@ -114,6 +182,8 @@
 			children = (
 				711A506619388095005642EF /* DayX.app */,
 				711A508119388096005642EF /* DayXTests.xctest */,
+				FFF324411AAA1B44006A58EF /* DayXkit.framework */,
+				FFF3244B1AAA1B44006A58EF /* DayXkitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +203,9 @@
 		711A506F19388095005642EF /* DayX */ = {
 			isa = PBXGroup;
 			children = (
+				FFF3243B1AAA1987006A58EF /* DayX.entitlements */,
 				711A507819388095005642EF /* DXAppDelegate.h */,
 				711A507919388095005642EF /* DXAppDelegate.m */,
-				FF6BE9F51A9E4F2800140A56 /* Core Data */,
 				7160740319CAE03C00D730CF /* DXListViewController.h */,
 				7160740419CAE03C00D730CF /* DXListViewController.m */,
 				7160740619CAE06500D730CF /* DXListTableViewDataSource.h */,
@@ -181,18 +251,68 @@
 		FF6BE9F51A9E4F2800140A56 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				FF6BE9F21A9E4F1700140A56 /* Model.xcdatamodeld */,
 				FF6BE9F61A9E516D00140A56 /* Entry.h */,
 				FF6BE9F71A9E516D00140A56 /* Entry.m */,
-				FF6BE9F91A9E521B00140A56 /* Stack.h */,
-				FF6BE9FA1A9E521B00140A56 /* Stack.m */,
 				7160740019CADDA500D730CF /* EntryController.h */,
 				7160740119CADDA500D730CF /* EntryController.m */,
+				FF6BE9F21A9E4F1700140A56 /* Model.xcdatamodeld */,
+				FF6BE9F91A9E521B00140A56 /* Stack.h */,
+				FF6BE9FA1A9E521B00140A56 /* Stack.m */,
 			);
 			name = "Core Data";
+			path = ../DayX;
+			sourceTree = "<group>";
+		};
+		FFF324421AAA1B44006A58EF /* DayXkit */ = {
+			isa = PBXGroup;
+			children = (
+				FFF324451AAA1B44006A58EF /* DayXkit.h */,
+				FF6BE9F51A9E4F2800140A56 /* Core Data */,
+				FFF324431AAA1B44006A58EF /* Supporting Files */,
+			);
+			path = DayXkit;
+			sourceTree = "<group>";
+		};
+		FFF324431AAA1B44006A58EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF324441AAA1B44006A58EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF324511AAA1B44006A58EF /* DayXkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF324541AAA1B44006A58EF /* DayXkitTests.m */,
+				FFF324521AAA1B44006A58EF /* Supporting Files */,
+			);
+			path = DayXkitTests;
+			sourceTree = "<group>";
+		};
+		FFF324521AAA1B44006A58EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF324531AAA1B44006A58EF /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FFF3243E1AAA1B44006A58EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF324461AAA1B44006A58EF /* DayXkit.h in Headers */,
+				FFF324611AAA1DB2006A58EF /* Entry.h in Headers */,
+				FFF324621AAA1DC0006A58EF /* EntryController.h in Headers */,
+				FFF324631AAA1DC9006A58EF /* Stack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		711A506519388095005642EF /* DayX */ = {
@@ -202,10 +322,12 @@
 				711A506219388095005642EF /* Sources */,
 				711A506319388095005642EF /* Frameworks */,
 				711A506419388095005642EF /* Resources */,
+				FFF3245D1AAA1B44006A58EF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FFF324571AAA1B44006A58EF /* PBXTargetDependency */,
 			);
 			name = DayX;
 			productName = DayX;
@@ -230,6 +352,43 @@
 			productReference = 711A508119388096005642EF /* DayXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FFF324401AAA1B44006A58EF /* DayXkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF3245A1AAA1B44006A58EF /* Build configuration list for PBXNativeTarget "DayXkit" */;
+			buildPhases = (
+				FFF3243C1AAA1B44006A58EF /* Sources */,
+				FFF3243D1AAA1B44006A58EF /* Frameworks */,
+				FFF3243E1AAA1B44006A58EF /* Headers */,
+				FFF3243F1AAA1B44006A58EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayXkit;
+			productName = DayXkit;
+			productReference = FFF324411AAA1B44006A58EF /* DayXkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFF3244A1AAA1B44006A58EF /* DayXkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF3245E1AAA1B44006A58EF /* Build configuration list for PBXNativeTarget "DayXkitTests" */;
+			buildPhases = (
+				FFF324471AAA1B44006A58EF /* Sources */,
+				FFF324481AAA1B44006A58EF /* Frameworks */,
+				FFF324491AAA1B44006A58EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF3244E1AAA1B44006A58EF /* PBXTargetDependency */,
+				FFF324501AAA1B44006A58EF /* PBXTargetDependency */,
+			);
+			name = DayXkitTests;
+			productName = DayXkitTests;
+			productReference = FFF3244B1AAA1B44006A58EF /* DayXkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,8 +401,21 @@
 				TargetAttributes = {
 					711A506519388095005642EF = {
 						DevelopmentTeam = 357NQPN89X;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					711A508019388096005642EF = {
+						TestTargetID = 711A506519388095005642EF;
+					};
+					FFF324401AAA1B44006A58EF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 357NQPN89X;
+					};
+					FFF3244A1AAA1B44006A58EF = {
+						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 711A506519388095005642EF;
 					};
 				};
@@ -262,6 +434,8 @@
 			targets = (
 				711A506519388095005642EF /* DayX */,
 				711A508019388096005642EF /* DayXTests */,
+				FFF324401AAA1B44006A58EF /* DayXkit */,
+				FFF3244A1AAA1B44006A58EF /* DayXkitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,6 +459,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFF3243F1AAA1B44006A58EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF324491AAA1B44006A58EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -292,13 +480,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6BE9FB1A9E521B00140A56 /* Stack.m in Sources */,
 				7160740819CAE06500D730CF /* DXListTableViewDataSource.m in Sources */,
 				711A507A19388095005642EF /* DXAppDelegate.m in Sources */,
-				FF6BE9F41A9E4F1700140A56 /* Model.xcdatamodeld in Sources */,
 				711A507619388095005642EF /* main.m in Sources */,
-				FF6BE9F81A9E516D00140A56 /* Entry.m in Sources */,
-				7160740219CADDA500D730CF /* EntryController.m in Sources */,
 				7160740519CAE03C00D730CF /* DXListViewController.m in Sources */,
 				71B57C4919C758CB00EF6AE3 /* DXDetailViewController.m in Sources */,
 			);
@@ -312,6 +496,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFF3243C1AAA1B44006A58EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF324661AAA1DE9006A58EF /* Stack.m in Sources */,
+				FFF324651AAA1DE4006A58EF /* EntryController.m in Sources */,
+				FFF324641AAA1DDF006A58EF /* Entry.m in Sources */,
+				FFF324671AAA1DF2006A58EF /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF324471AAA1B44006A58EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF324551AAA1B44006A58EF /* DayXkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -319,6 +522,21 @@
 			isa = PBXTargetDependency;
 			target = 711A506519388095005642EF /* DayX */;
 			targetProxy = 711A508619388096005642EF /* PBXContainerItemProxy */;
+		};
+		FFF3244E1AAA1B44006A58EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF324401AAA1B44006A58EF /* DayXkit */;
+			targetProxy = FFF3244D1AAA1B44006A58EF /* PBXContainerItemProxy */;
+		};
+		FFF324501AAA1B44006A58EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711A506519388095005642EF /* DayX */;
+			targetProxy = FFF3244F1AAA1B44006A58EF /* PBXContainerItemProxy */;
+		};
+		FFF324571AAA1B44006A58EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF324401AAA1B44006A58EF /* DayXkit */;
+			targetProxy = FFF324561AAA1B44006A58EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,11 +635,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DayX/DayX.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DayX/DayX-Prefix.pch";
 				INFOPLIST_FILE = "DayX/DayX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -433,11 +654,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DayX/DayX.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DayX/DayX-Prefix.pch";
 				INFOPLIST_FILE = "DayX/DayX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -484,6 +708,104 @@
 			};
 			name = Release;
 		};
+		FFF3245B1AAA1B44006A58EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DayXkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFF3245C1AAA1B44006A58EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = DayXkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFF3245F1AAA1B44006A58EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DayXkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayX.app/DayX";
+			};
+			name = Debug;
+		};
+		FFF324601AAA1B44006A58EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DayXkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayX.app/DayX";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,6 +835,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FFF3245A1AAA1B44006A58EF /* Build configuration list for PBXNativeTarget "DayXkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF3245B1AAA1B44006A58EF /* Debug */,
+				FFF3245C1AAA1B44006A58EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF3245E1AAA1B44006A58EF /* Build configuration list for PBXNativeTarget "DayXkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF3245F1AAA1B44006A58EF /* Debug */,
+				FFF324601AAA1B44006A58EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

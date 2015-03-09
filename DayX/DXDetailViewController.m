@@ -7,7 +7,7 @@
 //
 
 #import "DXDetailViewController.h"
-#import "EntryController.h"
+#import <DayXkit/DayXkit.h>
 
 @interface DXDetailViewController () <UITextFieldDelegate, UITextViewDelegate>
 

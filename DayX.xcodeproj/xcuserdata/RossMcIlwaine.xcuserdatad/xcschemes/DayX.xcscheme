@@ -34,6 +34,20 @@
                ReferencedContainer = "container:DayX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FFF3244A1AAA1B44006A58EF"
+               BuildableName = "DayXkitTests.xctest"
+               BlueprintName = "DayXkitTests"
+               ReferencedContainer = "container:DayX.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "711A508019388096005642EF"
                BuildableName = "DayXTests.xctest"
                BlueprintName = "DayXTests"
+               ReferencedContainer = "container:DayX.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FFF3244A1AAA1B44006A58EF"
+               BuildableName = "DayXkitTests.xctest"
+               BlueprintName = "DayXkitTests"
                ReferencedContainer = "container:DayX.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -72,7 +96,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "711A506519388095005642EF"
@@ -90,7 +115,8 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "711A506519388095005642EF"
